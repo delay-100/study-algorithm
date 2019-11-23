@@ -1,0 +1,5 @@
+name korean math english
+hae 90 80 70
+haha 95 68 97
+oh 70 48 60
+hi 99 50 75

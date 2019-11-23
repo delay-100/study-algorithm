@@ -1,0 +1,5 @@
+name min
+hae 80
+haha 86
+oh 59
+hi 74

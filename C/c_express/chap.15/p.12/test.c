@@ -14,9 +14,9 @@ int main(void){
     int count = 1;
 
     printf("File name: ");
-    scanf("%s", &n);
+    scanf("%s", n);
     printf("\nscan word: ");
-    scanf("%s", &sw);
+    scanf("%s", sw);
     f = fopen(n, "r+");
 
     while(!feof(f)){

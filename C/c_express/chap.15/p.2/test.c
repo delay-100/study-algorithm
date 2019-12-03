@@ -11,9 +11,9 @@ int main(void){
     char buffer[100]={0, };
     
     printf("First file name: ");
-    scanf("%s", &n1);
+    scanf("%s", n1);
     printf("\nSecond file name: ");
-    scanf("%s", &n2);
+    scanf("%s", n2);
     printf("\n");
 
     f1 = fopen(n1, "r");

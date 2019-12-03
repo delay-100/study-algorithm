@@ -13,7 +13,7 @@ int main(void){
     char c[SIZE];
 
     printf("File name: ");
-    scanf("%s", &n);
+    scanf("%s", n);
     f = fopen(n, "w+");
 
     while(1){

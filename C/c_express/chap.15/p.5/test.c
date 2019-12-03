@@ -17,7 +17,7 @@ int main(void){
     int min = 0;
 
     fprintf(f1, "name min\n");
-    fscanf(f, "%s %s %s %s\n", &s.name, &s.korean, &s.math, &s.english);
+    fscanf(f, "%s %s %s %s\n", s.name, &s.korean, &s.math, &s.english);
     while(0 < fscanf(f, "%s %d %d %d\n", &s.name, &s.korean, &s.math, &s.english)){
         min = ( s.korean + s.math + s.english )/3;
         fprintf(f1, "%s %d\n", s.name, min);

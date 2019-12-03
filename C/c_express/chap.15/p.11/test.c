@@ -57,7 +57,7 @@ void search_book(BOOK* list ,int count){
     char title[100];
     int found = 0;
     printf("title name: ");
-    scanf("%s", &title);
+    scanf("%s", title);
     for(i=0; i<count; i++){
         if(!strcmp(title, list[i].title) !=0){
             printf("Author: %s\n", list[i].Author);

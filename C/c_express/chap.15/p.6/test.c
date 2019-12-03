@@ -13,7 +13,7 @@ int main(void){
     int count = 0;
 
     printf("File name: ");
-    scanf("%s", &n);
+    scanf("%s", n);
 
     f = fopen(n, "r");
     

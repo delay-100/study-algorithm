@@ -8,9 +8,9 @@ int main(void){
     int isSame = 0;
 
     printf("first file name:  ");
-    scanf("%s", &n1);
+    scanf("%s", n1);
     printf("\nsecond file name: ");
-    scanf("%s", &n2);
+    scanf("%s", n2);
 
     f1 = fopen(n1, "r");
     f2 = fopen(n2, "r");

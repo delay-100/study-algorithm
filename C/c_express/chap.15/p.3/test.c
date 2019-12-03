@@ -10,9 +10,9 @@ int main(void){
     int count =0;
 
     printf("Orignal file name: ");
-    scanf("%s", &n1);
+    scanf("%s", n1);
     printf("\nCopy file name: ");
-    scanf("%s\n", &n2);
+    scanf("%s\n", n2);
 
     f1 = fopen(n1, "rb");
     f2 = fopen(n2, "wb");

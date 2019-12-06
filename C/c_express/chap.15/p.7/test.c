@@ -17,7 +17,7 @@ int main(void){
     f = fopen(n, "w+");
 
     while(1){
-        if(fgets(c,SIZE, stdin) ==0)
+        if(fgets(c,SIZE, stdin) ==0) // fgets가 0을 반환하면 공백임
             break;
         fputs(c, f);
     }

@@ -2,25 +2,23 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class n1924 {
+public class n10768 {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		
 		int month = input.nextInt();
 		int day = input.nextInt();
 		
-		switch(month) {
-			case 1:
-			case 3:
-			case 5:
-			case 7:
-			case 8:
-			case 10:
-			case 12:
-				
+		if(month==2 && day==18) {
+			System.out.println("Special");
+		}
+		else if((month==2 && day<18)||(month<2)) {
+			System.out.println("Before");
+		}
+		else {
+			System.out.println("After");
 		}
 		
 		input.close();
 	}
-
 }

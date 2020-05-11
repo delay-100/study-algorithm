@@ -48,7 +48,7 @@ void search_number(NODE *list,NODE * p, int count){
         p = p->link;
     }
     if(true!=1)
-        printf("Can't change. Check name.\n");
+        printf("Check name.\n");
 }
 
 void modify_number(NODE* list,NODE * p, int count){

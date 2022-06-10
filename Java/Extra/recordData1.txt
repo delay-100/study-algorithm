@@ -1,0 +1,18 @@
+A 3 kim
+B 1 lee
+C 0 park
+A 1 alan
+F 0 Rousseeuw
+A 2 dijkstra
+F 0 danaka
+B 8 jenny
+B 1 lovelace
+B 7 gosling
+C 6 seo
+D 3 mccarthy 
+B 4 guido
+C 4 gates
+A 1 tim
+F 0 Ahn
+C 2 Ulman
+

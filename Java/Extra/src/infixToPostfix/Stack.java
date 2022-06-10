@@ -1,4 +1,4 @@
-package dataStructure;
+package infixToPostfix;
 
 import java.util.Scanner;
 
@@ -23,22 +23,11 @@ public class Stack<E> {
 
 	public void traverse() {
 		Node<E> nodeRef = head;
-		int num = 0;
-		System.out.println("------");
 		while (nodeRef != null) {
-			System.out.print("[" + nodeRef.data + "]");
-		
-			if(num==(size-1))
-				System.out.println("<--bottom");
-			else if(num==0)
-				System.out.println("<--top");
-			else
-				System.out.println();	
+			System.out.print(nodeRef.data + " ");	
 			nodeRef = nodeRef.next;
-
-			num++;
 		}
-		System.out.println("------");
+		System.out.println();
 	}
 
 	public E get(int index) {
@@ -184,5 +173,6 @@ public class Stack<E> {
 		}
 		input.close();
 	}
+
 
 }

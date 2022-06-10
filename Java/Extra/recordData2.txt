@@ -1,0 +1,21 @@
+A 0 k
+A 1 K
+A 2 K
+B 0 aaaaaaaa
+B 7 aaaa
+C 1 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+D 10 Ga nada
+D 10 Fox
+F 0 alpha
+F 0 alpha
+F 0 bravo
+A 0 Lee
+B 1 park
+C 2 kim
+D 3 choi
+F 4 baek
+F 5 yun
+D 6 hwang
+C 7 jung
+B 8 yanh
+A 9 nam

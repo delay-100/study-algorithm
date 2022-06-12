@@ -1,5 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
@@ -7,12 +8,13 @@ public class Main {
 		
 		int a = Integer.parseInt(bf.readLine());
 		
-		while (true) {
-			String s = bf.readLine();
-
-		}
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		String s = "";
+		while ((s = bf.readLine())!=null) {
 			
-		
-
+			
+			String[] sl = s.split(" ");
+			
+		}
 	}
 }

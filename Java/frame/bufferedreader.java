@@ -8,7 +8,7 @@ public class Main {
 		int a = Integer.parseInt(bf.readLine());
 		
 		while (true) {
-			String i = bf.readLine();
+			String s = bf.readLine();
 
 		}
 			

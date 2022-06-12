@@ -11,10 +11,8 @@ public class n10828 {
 		
 		while (true) {
 			String i = bf.readLine();
-
-		}
 			
-		
-
+			
+		}
 	}
 }

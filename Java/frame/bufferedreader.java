@@ -4,13 +4,13 @@ import java.util.ArrayList;
 
 public class Main {
 	public static void main(String[] args) throws Exception {
-		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		int a = Integer.parseInt(bf.readLine());
+		int a = Integer.parseInt(br.readLine());
 		
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		String s = "";
-		while ((s = bf.readLine())!=null) {
+		while ((s = br.readLine())!=null) {
 			
 			
 			String[] sl = s.split(" ");

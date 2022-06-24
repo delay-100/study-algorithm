@@ -11,7 +11,7 @@ public class Main {
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		String s = "";
 		while ((s = br.readLine())!=null) {
-			String[] sl = s.split(" ");
+			String[] sl = s.split("");
 			
 		}
 	}

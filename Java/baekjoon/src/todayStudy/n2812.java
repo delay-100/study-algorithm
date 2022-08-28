@@ -19,10 +19,6 @@ public class n2812 {
 			list[i] = Integer.parseInt(templist[i]);
 		}
 		
-		for(int i=0; i<N; i++) {
-			
-		}
-		
 		
 		input.close();
 	}
